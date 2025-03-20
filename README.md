@@ -35,6 +35,10 @@ Once the server has started, you can press `Ctrl-C` to stop tailing the log. Ope
 ### Import Example Datasets
 To import example datasets that are useful for learning StyleBI, download the [examples.zip](community-examples/examples.zip) file, and import the assets into your environment.  See [Import Assets](https://www.inetsoft.com/docs/stylebi/InetSoftUserDocumentation/1.0.0/administration/ImportExportAssets.html#ImportAssets)  for instructions on how to do this. See the [StyleBI Documentation](https://www.inetsoft.com/docs/stylebi) for complete information on how to manage the server and how to create Dashboards.
 
+### Use latest build
+Note: The latest build may be unstable and should only be used in production environments after a complete validation test cycle.
+To use the latest build, Save [community-examples/.env](community-examples/.env) file in the same folder as the [community-examples/docker-compose.yaml](community-examples/docker-compose.yaml) file by clicking on the link then click "Download raw file" button at upper right corner of the file editing area. Edit the .env file to comment out the default build and uncomment the nightly build. 
+
 ## Build from Source
 
 ### Prerequisites
